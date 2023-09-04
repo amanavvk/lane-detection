@@ -2,7 +2,7 @@ import imp
 import cv2 
 import numpy as np
 
-video = cv2.VideoCapture('/home/bhavik/projects/compVision/lane_detection/test_video/Highway - 10364.mp4')
+video = cv2.VideoCapture('/home/aman/projects/compVision/lane_detection/test_video/Highway - 10364.mp4')
 
 while(video.isOpened()):
     ret, img = video.read()
